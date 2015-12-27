@@ -8,11 +8,15 @@
     "default_title": "Mojify",
     "default_popup": "static/popup.html"
   },
+  "background": {
+    "scripts": [
+      "lib/background.js"
+    ]
+  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["build/content.js"],
-      "css": ["static/content.css"]
+      "js": ["build/content.js"]
     }
   ],
   "permissions": [

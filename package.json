@@ -34,8 +34,9 @@
     "webpack": "^1.12.2"
   },
   "devDependencies": {
-    "eslint": "",
     "babel-eslint": "",
-    "eslint-plugin-react": ""
+    "eslint": "",
+    "eslint-plugin-react": "",
+    "webpack-livereload-plugin": "^0.4.0"
   }
 }
