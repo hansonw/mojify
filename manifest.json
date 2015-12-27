@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Mojify",
+  "description": "This extension shows definitions for Chinese characters in images on hover.",
+  "version": "0.1",
+  "browser_action": {
+    "default_icon": "static/icon.png",
+    "default_title": "Mojify",
+    "default_popup": "static/popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["build/content.js"],
+      "css": ["static/content.css"]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ]
+}

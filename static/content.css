@@ -1,0 +1,7 @@
+div.mojify-selector {
+  background-color: blue;
+  border: 1px solid black;
+  opacity: 0.3;
+  position: absolute;
+  z-index: 999;
+}
