@@ -1,7 +1,8 @@
 {
   "parser": "babel-eslint",
   "globals": {
-    "chrome": true
+    "chrome": true,
+    "__DEV__": true
   },
   "env": {
     "browser": true,

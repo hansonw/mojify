@@ -10,7 +10,7 @@
   },
   "background": {
     "scripts": [
-      "lib/background.js"
+      "build/background.js"
     ]
   },
   "content_scripts": [

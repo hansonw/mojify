@@ -4,9 +4,9 @@
   "description": "Chrome extension to show definitions for Chinese characters in images on hover.",
   "scripts": {
     "test": "echo \"No tests yet!\"",
-    "start": "webpack --progress --colors --watch -d",
+    "start": "BUILD_DEV=1 webpack --progress --colors --watch -d",
     "build": "webpack --progress --colors -p",
-    "lint": "eslint assets lib"
+    "lint": "eslint lib"
   },
   "repository": {
     "type": "git",
