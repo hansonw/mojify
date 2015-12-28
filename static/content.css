@@ -5,3 +5,27 @@ div.mojify-selector {
   position: absolute;
   z-index: 999;
 }
+
+div.mojify-hovercard {
+  background: yellow;
+  border: 1px solid black;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 8px;
+  position: absolute;
+  z-index: 1000;
+}
+
+div.mojify-hovercard .results {
+  display: inline-block;
+}
+
+div.mojify-hovercard .symbol {
+  font-size: 24px;
+}
+
+div.mojify-hovercard .dismiss {
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 8px;
+  vertical-align: top;
+}

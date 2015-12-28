@@ -1,9 +1,11 @@
 [ignore]
 
 [include]
+../node_modules/react
 
 [libs]
 chrome.js
 
 [options]
 suppress_comment=.*\\$FlowIssue.*
+esproposal.class_static_fields=ignore
