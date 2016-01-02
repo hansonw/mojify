@@ -1,7 +1,7 @@
 import webpack from 'webpack';
 import LiveReloadPlugin from 'webpack-livereload-plugin';
 
-const BUILD_DEV = !!process.env.BUILD_DEV;
+const BUILD_DEV = process.argv.indexOf('-d') !== -1;
 
 const plugins = [
   new webpack.DefinePlugin({
