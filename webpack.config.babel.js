@@ -29,6 +29,7 @@ export default {
     popup: './lib/popup.js',
     content: './lib/content.js',
     background: './lib/background.js',
+    worker: './lib/worker.js',
   },
   output: {
     path: 'build',
