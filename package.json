@@ -20,10 +20,10 @@
     "babel-core": "^6.3.26",
     "babel-loader": "^6.2.0",
     "babel-runtime": "^6.0.0",
-    "chrome-promise": "^1.0.6",
     "css-loader": "",
     "pako": "^0.2.8",
-    "react": "^0.13.3",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
     "style-loader": "",
     "tesseract.js-core": "^1.0.2",
     "webpack": "^1.12.2"
@@ -35,7 +35,9 @@
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-0": "^6.3.13",
     "eslint": "",
-    "eslint-config-airbnb": "^2.1.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.0",
+    "eslint-plugin-jsx-a11y": "^1.2.0",
     "eslint-plugin-react": "",
     "webpack-livereload-plugin": "^0.4.0"
   }

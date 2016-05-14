@@ -9,7 +9,7 @@ div.mojify-selector {
 div.mojify-hovercard {
   background: yellow;
   border: 1px solid black;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Microsoft YaHei', 'SimHei', 'Apple LiGothic', sans-serif;
   padding: 8px;
   position: absolute;
   z-index: 1000;
