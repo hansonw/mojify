@@ -7,8 +7,10 @@ div.mojify-selector {
 }
 
 div.mojify-hovercard {
-  background: yellow;
-  border: 1px solid black;
+  background-color: rgba(246, 247, 249, .9);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .1), 0 1px 10px rgba(0, 0, 0, .35);
+  border-radius: 2px;
+  font-family: 'Segoe UI', 'Helvetica', sans-serif;
   padding: 8px;
   position: absolute;
   z-index: 1000;
@@ -19,8 +21,15 @@ div.mojify-hovercard .results {
 }
 
 div.mojify-hovercard .symbol {
+  display: inline-block;
   font-size: 24px;
   font-family: 'Microsoft YaHei', 'SimHei', 'Apple LiGothic', sans-serif;
+  position: relative;
+}
+
+div.mojify-hovercard .symbol:hover {
+  background-color: #ccc;
+  border-radius: 3px;
 }
 
 div.mojify-hovercard .dismiss {
@@ -28,4 +37,17 @@ div.mojify-hovercard .dismiss {
   display: inline-block;
   margin-left: 8px;
   vertical-align: top;
+}
+
+div.mojify-hovercard .picker {
+  bottom: -12px;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.picker .percent {
+  color: #777;
+  font-size: 12px;
+  margin-left: 8px;
+  vertical-align: middle;
 }
