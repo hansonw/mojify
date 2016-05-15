@@ -9,7 +9,6 @@ div.mojify-selector {
 div.mojify-hovercard {
   background: yellow;
   border: 1px solid black;
-  font-family: 'Microsoft YaHei', 'SimHei', 'Apple LiGothic', sans-serif;
   padding: 8px;
   position: absolute;
   z-index: 1000;
@@ -21,6 +20,7 @@ div.mojify-hovercard .results {
 
 div.mojify-hovercard .symbol {
   font-size: 24px;
+  font-family: 'Microsoft YaHei', 'SimHei', 'Apple LiGothic', sans-serif;
 }
 
 div.mojify-hovercard .dismiss {
