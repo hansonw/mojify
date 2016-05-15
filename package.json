@@ -25,6 +25,7 @@
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
     "style-loader": "",
+    "super-xbr": "^1.0.0",
     "tesseract.js-core": "^1.0.2",
     "webpack": "^1.12.2"
   },
