@@ -1,10 +1,10 @@
 [ignore]
+.*/node_modules/.*
 
 [include]
-../node_modules/react
 
 [libs]
-flowdefs.js
+lib/flowdefs.js
 
 [options]
 suppress_comment=.*\\$FlowIssue.*
